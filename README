@@ -1,0 +1,37 @@
+NAME: Keyu Ji
+UID: 704966744
+NAME: Hermmy Wang 
+UID: 704978214
+
+CS 118 Spring 2019 Project 2
+Simple window-based reliable data transfer
+
+Files included:
+(1) server.cpp
+	Source code of implementing TCP server using UDP conenction, written in c++.
+
+(2) client.cpp
+	Source code of implementing TCP client using UDP conenction, written in c++.
+
+(3) report.pdf
+	Introduce the design of the connection protocol and other implementation designs.
+
+(4) README
+	Include students' names and UIDs. 
+
+(5) Makefile
+
+
+Instruction of testing
+	$ make
+	$ make sv
+	$ make cl
+	$ make clean
+
+	Test packet loss:
+	Stop server
+	$ make loss
+	$ make sv
+	$ make cl
+	$ make deltc
+	$ make clean
